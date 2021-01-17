@@ -15,12 +15,12 @@ font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
 }
 
-/*   
-bottom: -100%;
-    right: -22%;*/
+h2{
+    font-size: 18px;
+}
 body{
     background-size: cover;
-    background:url("./images/bg-pattern-top.svg") -85% 170% no-repeat,url("./images/bg-pattern-bottom.svg") 170% -110% no-repeat;
+    background:url("./images/bg-pattern-top.svg") -60% 210% no-repeat,url("./images/bg-pattern-bottom.svg") 155% -170% no-repeat;
     background-color: var(--Darkcyan);
     min-height: 100vh;
 }
@@ -45,7 +45,7 @@ body{
 }
 
 .textSection{
-    height: 143px;
+    height: 145px;
     background-color: white;
     padding-top: 75px;
 }
@@ -56,12 +56,12 @@ body{
 }
 .imgSection{
     position: absolute;
-    top:86px;
-    left:121px;
+    top:85px;
+    left:122px;
     overflow: hidden;
     border-radius: 50%;
-    width:103px;
-    height:103px;
+    width:105px;
+    height:105px;
     border: 5px solid white;
 }
 .colorGray{
@@ -73,10 +73,10 @@ color: var(--Darkgray);
 
 .body-cp-md{
     font-size: 14px;
-    padding: 0.5rem 0;
+    padding: 10px 0;
 }
 .body-cp-sm{
-    font-size: 10px;
+    font-size: 11px;
     padding-top: 0.5rem;
     letter-spacing: 1px;
 }
@@ -105,3 +105,4 @@ color: var(--Darkgray);
         background-color: var(--Darkcyan);
     }
 }
+
