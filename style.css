@@ -1,0 +1,107 @@
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Darkblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%)
+}
+
+*{
+margin: 0;
+box-sizing: border-box;
+font-family: 'Kumbh Sans', sans-serif;
+
+}
+.body-cp-lg{
+    font-size: 18px;
+}
+
+/*   
+bottom: -100%;
+    right: -22%;*/
+body{
+    background-size: cover;
+    background:url("./images/bg-pattern-top.svg") -85% 170% no-repeat,url("./images/bg-pattern-bottom.svg") 170% -110% no-repeat;
+    background-color: var(--Darkcyan);
+    min-height: 100vh;
+}
+
+.section{
+    width: 350px;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    color: var(--Darkblue);
+    text-align: center;
+}
+.bgSection{
+    height: 140px;
+    background-image: url(./images/bg-pattern-card.svg);
+}
+.vertical-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.textSection{
+    height: 143px;
+    background-color: white;
+    padding-top: 75px;
+}
+.bottomSection{
+    border-top: 1px solid rgb(216, 216, 216);
+    height: 87px;
+    background-color: white;
+}
+.imgSection{
+    position: absolute;
+    top:86px;
+    left:121px;
+    overflow: hidden;
+    border-radius: 50%;
+    width:103px;
+    height:103px;
+    border: 5px solid white;
+}
+.colorGray{
+color: var(--Darkgray);
+}
+.colorGrayishBlue{
+    color: var(--Darkgrayishblue);
+}
+
+.body-cp-md{
+    font-size: 14px;
+    padding: 0.5rem 0;
+}
+.body-cp-sm{
+    font-size: 10px;
+    padding-top: 0.5rem;
+    letter-spacing: 1px;
+}
+.age{
+    padding-left: 8px;
+}
+.bottomSection ul{
+    height: 86px;
+    display: flex;
+    padding-inline-start: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 375px){
+    .section{
+        width: 325px;  
+    }
+    .imgSection{
+        left:108px;
+    }
+    body{
+        background:url("./images/bg-pattern-top.svg") 120% 280% no-repeat, url("./images/bg-pattern-bottom.svg") -20% -165% no-repeat;
+        background-color: var(--Darkcyan);
+    }
+}
